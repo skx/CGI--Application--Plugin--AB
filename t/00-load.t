@@ -10,6 +10,6 @@ BEGIN
     use_ok("CGI::Application::Plugin::AB","We could load the module" );
 }
 
-ok( $CGI::Application::Plugin::Throttle::VERSION, "Version defined");
-ok( $CGI::Application::Plugin::Throttle::VERSION =~ /^([0-9\.]+)/,
+ok( $CGI::Application::Plugin::AB::VERSION, "Version defined");
+ok( $CGI::Application::Plugin::AB::VERSION =~ /^([0-9\.]+)/,
     "Version is numeric");
