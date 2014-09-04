@@ -3,18 +3,21 @@ use strict;
 
 use ExtUtils::MakeMaker;
 
-my %prereq_pm = ( 'CGI::Application' => undef,
-                  'Redis'            => undef,
-                  # solely for the test-suite.
-                  'Test::More'       => undef,
-                  'Test::Pod'        => undef,
-                  'Test::NoTabs'     => undef,
+my %prereq_pm = ( 'CGI::Application' => 0,
+                  'Redis'            => 0,
                 );
+my %test_pm = (
+               # solely for the test-suite.
+               'Test::More'       => 0,
+               'Test::Pod'        => 0,
+               'Test::NoTabs'     => 0,
+              );
 
 WriteMakefile(
     NAME         => 'CGI::Application::Plugin::AB',
     VERSION_FROM => 'lib/CGI/Application/Plugin/AB.pm',
     PREREQ_PM    => \%prereq_pm,
+    TEST_REQUIRES => \&test_pm,
     ABSTRACT     => 'A/B testing for CGI::Application-based applications.',
     AUTHOR       => 'Steve Kemp <steve@steve.org.uk>',
 
