@@ -17,7 +17,7 @@ WriteMakefile(
     NAME         => 'CGI::Application::Plugin::AB',
     VERSION_FROM => 'lib/CGI/Application/Plugin/AB.pm',
     PREREQ_PM    => \%prereq_pm,
-    TEST_REQUIRES => \&test_pm,
+    TEST_REQUIRES => \%test_pm,
     ABSTRACT     => 'A/B testing for CGI::Application-based applications.',
     AUTHOR       => 'Steve Kemp <steve@steve.org.uk>',
 

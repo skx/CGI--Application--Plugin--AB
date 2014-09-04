@@ -4,3 +4,8 @@
 0.2 - 04-08-2014
 	- Updated to validate the META.yml file.
 	- Broke out dependencies into "real" vs. "test".
+
+0.3 - 04-08-2014
+	- Fixed stupid typo related to build-dependencies.
+	- https://github.com/skx/CGI--Application--Plugin--AB/issues/1
+
