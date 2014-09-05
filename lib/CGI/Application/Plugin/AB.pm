@@ -60,7 +60,7 @@ use warnings;
 package CGI::Application::Plugin::AB;
 
 
-our $VERSION = '0.3';
+our $VERSION = '0.4';
 
 
 =head1 METHODS

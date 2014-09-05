@@ -9,3 +9,6 @@
 	- Fixed stupid typo related to build-dependencies.
 	- https://github.com/skx/CGI--Application--Plugin--AB/issues/1
 
+0.4 - 05-08-2014
+	- Documented minimum version of Perl, and license.
+
