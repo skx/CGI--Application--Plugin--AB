@@ -18,6 +18,7 @@ my %WriteMakefileArgs = (
     BUILD_REQUIRES => {
         'Test::More'   => 0,
         'Test::Pod'    => 0,
+        'Test::Strict' => 0,
         'Test::NoTabs' => 0,
     },
 
