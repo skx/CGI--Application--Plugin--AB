@@ -36,8 +36,6 @@ my %WriteMakefileArgs = (
                'https://github.com/skx/CGI--Application--Plugin--AB/issues',
              repository =>
                'https://github.com/skx/CGI--Application--Plugin--AB.git',
-             GitMirror =>
-               'http://git.steve.org.uk/cpan/CGI--Application--Plugin--AB',
          },
     },
 );
